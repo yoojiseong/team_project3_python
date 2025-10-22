@@ -1,0 +1,6 @@
+환경이걸로 만들었습니다.
+conda create -n Project python=3.10
+만든 환경 활성화
+conda activate Project
+만든 환경 비활성화
+conda deactivate
