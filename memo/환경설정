@@ -4,3 +4,5 @@ conda create -n Project python=3.10
 conda activate Project
 만든 환경 비활성화
 conda deactivate
+라이브러리 설치
+pip install torch pandas scikit-learn matplotlib seaborn
