@@ -1,0 +1,6 @@
+지진이 일어나는 원인
+지진 진앙 지점이 바다인가? => Elevation API 고도가 음수일때 바다임
+지진 진앙 지점 근처에 고도가 급격하게 변하는 고도가 있는가? => Elevation API
+지진 발생 지점 대륙이 수평이동을 하는지 수직이동을 하는지? => USGS , 60km이내에 
+
+elevation api 키 : AIzaSyCQt1-_LLhTfX_0l6JAZU1WwlZ1ldkTVTw

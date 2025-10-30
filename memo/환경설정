@@ -7,3 +7,4 @@ conda deactivate
 라이브러리 설치
 pip install torch pandas scikit-learn matplotlib seaborn
 pip install pandas seaborn matplotlib
+pip install pandas requests geopy
