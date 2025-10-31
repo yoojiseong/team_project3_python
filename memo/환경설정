@@ -8,3 +8,4 @@ conda deactivate
 pip install torch pandas scikit-learn matplotlib seaborn
 pip install pandas seaborn matplotlib
 pip install pandas requests geopy
+pip install pandas requests tqdm
