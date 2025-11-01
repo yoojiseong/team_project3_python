@@ -9,3 +9,7 @@ pip install torch pandas scikit-learn matplotlib seaborn
 pip install pandas seaborn matplotlib
 pip install pandas requests geopy
 pip install pandas requests tqdm
+pip install pandas scikit-learn matplotlib seaborn
+
+딥러닝 라이브러릴
+pip install tensorflow scikit-learn pandas matplotlib seaborn
