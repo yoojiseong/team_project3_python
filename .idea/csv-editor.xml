@@ -3,6 +3,20 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\2012년 이전 파일 데이터 수정필요\corrected_pre_2012_tsunami_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\2012년 이전 파일 데이터 수정필요\earthquake_data_tsunami.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\Crawling\icecream_sales_data.csv">
           <value>
             <Attribute>
@@ -10,14 +24,70 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\DataAnalyze\의료비 예측\processed_medical_insurance_final.csv">
+        <entry key="\DataPreprocessing\earthquake\2012년 이전 파일 데이터 수정필요\earthquakes.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\DataAnalyze\청년층판매량과_날씨의_상관관계\weather_combined_2305-2310.csv">
+        <entry key="\DataPreprocessing\earthquake\2012년 이전 파일 데이터 수정필요\earthquakes_cleaned_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\2012년 이전 파일 데이터 수정필요\earthquakes_filtered_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\2012년 이전 파일 데이터 수정필요\earthquakes_filtered_include_depth.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\2012년 이전 파일 데이터 수정필요\데이터 합치기\TEST_earthquakes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\2012년 이전 파일 데이터 수정필요\데이터 합치기\TEST_earthquakes_filtered_1_USGS.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\2012년 이전 파일 데이터 수정필요\데이터 합치기\earthquakes_filtered_include_depth.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\2차 전처리 - 바다, 고도변화 데이터 수집\TEST_earthquakes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\2차 전처리 - 바다, 고도변화 데이터 수집\TEST_earthquakes_final.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\2차 전처리 - 바다, 고도변화 데이터 수집\TEST_earthquakes_final_convert_int.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -31,7 +101,14 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\DataPreprocessing\earthquake\3차 전처리 - 단층 이동 데이터\TEST_train_data_final_with_fault_counts_past_year.csv">
+        <entry key="\DataPreprocessing\earthquake\2차 전처리 - 바다, 고도변화 데이터 수집\train_data_with_elevation.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\3차 전처리 - 단층 이동 데이터\TEST_earthquakes_filtered_1_USGS.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -45,14 +122,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\DataPreprocessing\earthquake\3차 전처리 - 단층 이동 데이터\TEST_train_data_final_with_faults.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DataPreprocessing\earthquake\3차 전처리 - 단층 이동 데이터\train_data_final_with_faults.csv">
+        <entry key="\DataPreprocessing\earthquake\3차 전처리 - 단층 이동 데이터\earthquakes_filtered_1.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -66,42 +136,77 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\DataPreprocessing\의료비예측\insurance.csv">
+        <entry key="\DataPreprocessing\earthquake\4차 전처리 - 추가 데이터 삽입\TEST_earthquakes_final_convert_int.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\DataPreprocessing\의료비예측\medical_insurance.csv">
+        <entry key="\DataPreprocessing\earthquake\4차 전처리 - 추가 데이터 삽입\combined_sorted_earthquakes.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\DataPreprocessing\의료비예측\processed_medical_insurance_final.csv">
+        <entry key="\DataPreprocessing\earthquake\4차 전처리 - 추가 데이터 삽입\final_802_data_for_training.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\기상청데이터최종본\weather_combined_1908-1910.csv">
+        <entry key="\DataPreprocessing\earthquake\4차 전처리 - 추가 데이터 삽입\final_802_data_for_training_include_Year_Month.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\기상청데이터최종본\weather_combined_2003-2010.csv">
+        <entry key="\DataPreprocessing\earthquake\4차 전처리 - 추가 데이터 삽입\final_model_data.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\기상청데이터최종본\weather_combined_2305-2310.csv">
+        <entry key="\DataPreprocessing\earthquake\4차 전처리 - 추가 데이터 삽입\final_model_data_2013_onward.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\4차 전처리 - 추가 데이터 삽입\new_king.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\4차 전처리 - 추가 데이터 삽입\new_kings_processed.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\5차 전처리 - p파s파 구하기\combined_sorted_earthquakes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\5차 전처리 - p파s파 구하기\combined_with_match_count.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\원본 데이터\TEST_earthquakes.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
