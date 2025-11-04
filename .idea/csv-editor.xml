@@ -3,35 +3,7 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\2012년 이전 파일 데이터 수정필요\corrected_pre_2012_tsunami_data.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\2012년 이전 파일 데이터 수정필요\earthquake_data_tsunami.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\Crawling\icecream_sales_data.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DataPreprocessing\earthquake\2012년 이전 파일 데이터 수정필요\earthquakes.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DataPreprocessing\earthquake\2012년 이전 파일 데이터 수정필요\earthquakes_cleaned_1.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -200,13 +172,6 @@
           </value>
         </entry>
         <entry key="\DataPreprocessing\earthquake\5차 전처리 - p파s파 구하기\combined_with_match_count.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DataPreprocessing\earthquake\원본 데이터\TEST_earthquakes.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
