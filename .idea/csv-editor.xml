@@ -73,6 +73,62 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\DataPreprocessing\earthquake\5차 전처리 - 추가데이터\common_events_matched.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\5차 전처리 - 추가데이터\final_tsunami_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\5차 전처리 - 추가데이터\query (7).csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\데이터 정규화 및 XGBoost모델 변경\2차 데이터 모델링_XGBoost\second_final_data_proceed.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\렌덤포레스트 모델 적용\second_final_data_proceed.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\추가데이터+누락데이터\Origin_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\추가데이터+누락데이터\common_events_matched.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\추가데이터+누락데이터\second_final_data_proceed.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\DataPreprocessing\의료비예측\insurance.csv">
           <value>
             <Attribute>
