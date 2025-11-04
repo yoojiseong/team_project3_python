@@ -73,7 +73,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\DataPreprocessing\earthquake\4차 전처리 - 추가 데이터 삽입\final_802_data_for_training.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\DataPreprocessing\earthquake\5차 전처리 - 추가데이터\common_events_matched.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\5차 전처리 - 추가데이터\filtered_tsunami_data.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -123,6 +137,13 @@
           </value>
         </entry>
         <entry key="\DataPreprocessing\earthquake\추가데이터+누락데이터\second_final_data_proceed.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\추가데이터+누락데이터\중복 데이터 제거\second_final_data.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
