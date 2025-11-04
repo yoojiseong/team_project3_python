@@ -12,10 +12,10 @@ def handle_prediction():
     try:
         data = request.json
 
-        mag = data['mag1']
-        dep = data['dep1']
-        lat = data['lat1']
-        lon = data['lon1']
+        mag = data['magnitude']
+        dep = data['depth']
+        lat = data['latitude']
+        lon = data['longitude']
 
         print(f"  입력 데이터: M{mag}, D{dep}, Lat{lat}, Lon{lon}")
 

@@ -2,7 +2,7 @@ import joblib
 import numpy as np
 import utils
 try:
-    model = joblib.load('xgboost_tsunami_model.joblib')
+    model = joblib.load('second_xgboost_tsunami_model.joblib')
     scaler = joblib.load('tsunami_scaler.joblib')
     print("[서비스 준비] 모델/스케일러 로드 성공.")
 except FileNotFoundError as e:
