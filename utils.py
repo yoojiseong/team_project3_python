@@ -1,7 +1,7 @@
 import requests
 import time
 import json
-from datetime import datetime, timedelta, UTC
+from datetime import datetime, timedelta, timezone
 from calendar import monthrange
 from geopy.distance import geodesic
 from geopy.point import Point
@@ -59,7 +59,7 @@ def get_elevation_features(lat, lon, api_key):
 def get_usgs_fault_counts(lat, lon):
     horizontal_count, vertical_count = 0, 0
     try:
-        now = datetime.now(UTC)
+        now = datetime.now(timezone.utc)
         year, month = now.year, now.month
         _, last_day = monthrange(year, month)
         endtime = f"{year}-{month:02d}-{last_day}"
