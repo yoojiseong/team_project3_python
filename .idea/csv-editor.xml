@@ -66,6 +66,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\DataPreprocessing\earthquake\4차 전처리 - 추가 데이터 삽입\TEST_earthquakes_final_convert_int.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\DataPreprocessing\의료비예측\insurance.csv">
           <value>
             <Attribute>
