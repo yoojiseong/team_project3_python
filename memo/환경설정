@@ -13,3 +13,5 @@ pip install pandas scikit-learn matplotlib seaborn
 
 딥러닝 라이브러릴
 pip install tensorflow scikit-learn pandas matplotlib seaborn
+
+pip install osbpy
