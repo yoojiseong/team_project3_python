@@ -3,21 +3,112 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\Crawling\earthquake_features2_2024-01-01.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Crawling\earthquake_features_2024-02-01.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Crawling\earthquake_features_2024-03-01.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Crawling\earthquake_features_2024-04-01.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Crawling\earthquake_features_2024-06-01.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Crawling\earthquake_features_2024-07-01.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Crawling\earthquake_features_2024-08-01.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Crawling\earthquake_features_2024-08-01_Tsunami.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Crawling\earthquake_features_2024-09-01.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Crawling\earthquake_features_2024-10-01.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Crawling\earthquake_features_2024-10-01_Tsunami.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Crawling\earthquake_features_2024-11-01.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Crawling\earthquake_features_2024-12-01.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Crawling\earthquake_features_with_tsunami_usgs.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Crawling\icecream_fuck\earthquake_features_2024-05-01.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\Crawling\icecream_sales_data.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DataAnalyze\의료비 예측\processed_medical_insurance_final.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DataAnalyze\청년층판매량과_날씨의_상관관계\weather_combined_2305-2310.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -31,13 +122,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\DataPreprocessing\earthquake\3차 전처리 - 단층 이동 데이터\TEST_train_data_final_with_fault_counts_past_year.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\DataPreprocessing\earthquake\3차 전처리 - 단층 이동 데이터\TEST_train_data_final_with_fault_counts_past_year_full_month.csv">
           <value>
             <Attribute>
@@ -45,28 +129,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\DataPreprocessing\earthquake\3차 전처리 - 단층 이동 데이터\TEST_train_data_final_with_faults.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DataPreprocessing\earthquake\3차 전처리 - 단층 이동 데이터\train_data_final_with_faults.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\DataPreprocessing\earthquake\3차 전처리 - 단층 이동 데이터\train_data_with_elevation.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DataPreprocessing\earthquake\4차 전처리 - 추가 데이터 삽입\TEST_earthquakes_final_convert_int.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -144,48 +207,6 @@
           </value>
         </entry>
         <entry key="\DataPreprocessing\earthquake\추가데이터+누락데이터\중복 데이터 제거\second_final_data.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DataPreprocessing\의료비예측\insurance.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DataPreprocessing\의료비예측\medical_insurance.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DataPreprocessing\의료비예측\processed_medical_insurance_final.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\기상청데이터최종본\weather_combined_1908-1910.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\기상청데이터최종본\weather_combined_2003-2010.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\기상청데이터최종본\weather_combined_2305-2310.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
