@@ -17,6 +17,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\Crawling\earthquake_features_2024-02-01_Tsunami.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\Crawling\earthquake_features_2024-03-01.csv">
           <value>
             <Attribute>
@@ -25,6 +32,13 @@
           </value>
         </entry>
         <entry key="\Crawling\earthquake_features_2024-04-01.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Crawling\earthquake_features_2024-05-01.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -94,21 +108,14 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\Crawling\earthquake_features_with_tsunami_usgs.csv">
+        <entry key="\DataPreprocessing\earthquake\1차 전처리-필요없는 데이터 제거\Test_data.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\Crawling\icecream_fuck\earthquake_features_2024-05-01.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\Crawling\icecream_sales_data.csv">
+        <entry key="\DataPreprocessing\earthquake\1차 전처리-필요없는 데이터 제거\train_data.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -116,6 +123,13 @@
           </value>
         </entry>
         <entry key="\DataPreprocessing\earthquake\2차 전처리 - 바다, 고도변화 데이터 수집\train_data_processed.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\2차 전처리 - 바다, 고도변화 데이터 수집\train_data_with_elevation.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -136,7 +150,35 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\DataPreprocessing\earthquake\4차 전처리 - 추가 데이터 삽입\common_events_matched_proceed.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\DataPreprocessing\earthquake\4차 전처리 - 추가 데이터 삽입\final_802_data_for_training.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\4차 전처리 - 추가 데이터 삽입\new_king.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\5차 전처리 - 추가데이터\combined_data_no_time.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\5차 전처리 - 추가데이터\combined_earthquake_data.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -171,6 +213,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\DataPreprocessing\earthquake\5차 전처리 - 추가데이터\real_final_tsunami_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\5차 전처리 - 추가데이터\renamed_tsunami_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\DataPreprocessing\earthquake\데이터 정규화 및 XGBoost모델 변경\2차 데이터 모델링_XGBoost\second_final_data_proceed.csv">
           <value>
             <Attribute>
@@ -178,7 +234,28 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\DataPreprocessing\earthquake\데이터 정규화 및 XGBoost모델 변경\2차 데이터 모델링_XGBoost\second_final_data_proceed_scaler.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\데이터 정규화 및 XGBoost모델 변경\final_802_data_for_training.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\DataPreprocessing\earthquake\렌덤포레스트 모델 적용\second_final_data_proceed.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DataPreprocessing\earthquake\원본 데이터\earthquake_data_tsunami.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -207,6 +284,27 @@
           </value>
         </entry>
         <entry key="\DataPreprocessing\earthquake\추가데이터+누락데이터\중복 데이터 제거\second_final_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\시각화\1차 데이터(원본) 시각화\train_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\시각화\2차 데이터(is_Ocean , 고도) 시각화\train_data_processed.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\시각화\3차 데이터(단층 이동 횟수) 시각화\TEST_train_data_final_with_fault_counts_past_year_full_month.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
