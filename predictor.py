@@ -27,8 +27,8 @@ def predict_tsunami(magnitude, depth, latitude, longitude, api_key):
     print("  [3/3] 데이터 스케일링 및 모델 예측...")
     X_scaled = scaler.transform(X_new)
 
-    prediction = model.predict(X_scaled)[0]
-    probability = model.predict_proba(X_scaled)[0][1]
+    prediction = int(model.predict(X_scaled)[0])
+    probability = float(model.predict_proba(X_scaled)[0][1])
 
     result = {
         "prediction": int(prediction),

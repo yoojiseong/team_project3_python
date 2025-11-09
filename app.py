@@ -32,8 +32,8 @@ def handle_prediction():
         result = predict_tsunami(magnitude, depth, latitude, longitude, GOOGLE_API_KEY)
 
         # Flask 서버의 콘솔에 최종 응답을 출력 (디버깅용)
-        print("Sending response to Spring Boot:", {"tsunamiProbability": float(result["tsunami_probability"])})
-        return jsonify({"tsunamiProbability": float(result["tsunami_probability"])})
+        print("Sending response to Spring Boot:", result)
+        return jsonify(result)
 
     except Exception as e:
         print(f"Error during prediction: {e}")
