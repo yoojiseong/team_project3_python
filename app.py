@@ -13,48 +13,58 @@ app = Flask(__name__)
 @app.route('/predict', methods=['POST'])
 def handle_prediction():
     # Spring Boot로부터 받은 JSON '리스트'를 파싱
-    data_list = request.get_json()
-
-    # 데이터가 잘 들어왔는지 터미널에 출력 (디버깅용)
-    print(f"Received data list from Spring Boot. Count: {len(data_list)}")
-    # print("Full data:", data_list) # 너무 길면 주석 처리
-
-    # 예측 결과를 담을 빈 리스트
-    results = []
+    data = request.get_json()
 
     try:
-        # --- ⬇️ [수정] 리스트를 순회하는 for 문 추가 ⬇️ ---
-        for item in data_list:
+        # --- ⬇️ [수정] 데이터 타입에 따라 분기 처리 ⬇️ ---
 
-            # 필요한 데이터 추출
-            # (수정) data.get() -> item.get()
-            latitude = item.get('latitude')
-            longitude = item.get('longitude')
-            magnitude = item.get('magnitude')
-            depth = item.get('depth')
+        # Case 1: 데이터가 '리스트'일 경우 (실시간 지진 API 호출)
+        if isinstance(data, list):
+            print(f"Received data LIST from Spring Boot. Count: {len(data)}")
+            results = []
 
-            # 데이터 유효성 검사
+            for item in data:
+                latitude = item.get('latitude')
+                longitude = item.get('longitude')
+                magnitude = item.get('magnitude')
+                depth = item.get('depth')
+
+                if None in [latitude, longitude, magnitude, depth]:
+                    results.append({"error": "Missing data for one item"})
+                    continue
+
+                result = predict_tsunami(magnitude, depth, latitude, longitude, GOOGLE_API_KEY)
+                results.append(result)
+
+            print(f"Sending {len(results)} results to Spring Boot:", results)
+            return jsonify(results)  # '리스트'로 반환
+
+        # Case 2: 데이터가 '딕셔너리(객체)'일 경우 (임시 지진 API 호출)
+        elif isinstance(data, dict):
+            print("Received single data OBJECT from Spring Boot:", data)
+
+            latitude = data.get('latitude')
+            longitude = data.get('longitude')
+            magnitude = data.get('magnitude')
+            depth = data.get('depth')
+
             if None in [latitude, longitude, magnitude, depth]:
-                # 하나라도 유효하지 않으면 results에 에러 객체를 추가
-                results.append({"error": "Missing data for one item"})
-                continue  # 다음 아이템으로 넘어감
+                return jsonify({"error": "Missing data for prediction"}), 400
 
-            # predictor.py의 predict_tsunami 함수 호출
             result = predict_tsunami(magnitude, depth, latitude, longitude, GOOGLE_API_KEY)
 
-            # 결과 리스트에 예측 결과(딕셔너리) 추가
-            results.append(result)
+            print("Sending single result to Spring Boot:", result)
+            return jsonify(result)  # '객체 1개'로 반환
 
-        # --- ⬆️ [수정] for 문 종료 ⬆️ ---
-
-        # Flask 서버의 콘솔에 최종 응답 리스트를 출력 (디버깅용)
-        print(f"Sending {len(results)} results to Spring Boot:", results)
-
-        # (수정) result -> results (결과 '리스트'를 반환)
-        return jsonify(results)
+        # Case 3: 그 외 잘못된 형식
+        else:
+            return jsonify({"error": "Invalid data format. Expected JSON object or list."}), 400
 
     except Exception as e:
-        print(f"Error during prediction loop: {e}")
+        print(f"Error during prediction: {e}")
+        # (참고) 오류 스택 트레이스를 포함하면 디버깅에 더 좋습니다.
+        # import traceback
+        # print(traceback.format_exc())
         return jsonify({"error": f"Prediction failed: {e}"}), 500
 
 
