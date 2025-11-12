@@ -33,8 +33,19 @@ def handle_prediction():
                     results.append({"error": "Missing data for one item"})
                     continue
 
-                result = predict_tsunami(magnitude, depth, latitude, longitude, GOOGLE_API_KEY)
-                results.append(result)
+                # 샘플 데이터 추가 전
+                # result = predict_tsunami(magnitude, depth, latitude, longitude, GOOGLE_API_KEY)
+                # results.append(result)
+                # 샘플 데이터 추가 후
+                prediction_result = predict_tsunami(magnitude, depth, latitude, longitude, GOOGLE_API_KEY)
+                frontend_response = {
+                    "latitude": latitude,
+                    "longitude": longitude,
+                    "magnitude": magnitude,
+                    "depth": depth,
+                    "tsunamiProbability": prediction_result.get("tsunami_probability")
+                }
+                results.append(frontend_response)
 
             print(f"Sending {len(results)} results to Spring Boot:", results)
             return jsonify(results)  # '리스트'로 반환
@@ -51,10 +62,23 @@ def handle_prediction():
             if None in [latitude, longitude, magnitude, depth]:
                 return jsonify({"error": "Missing data for prediction"}), 400
 
-            result = predict_tsunami(magnitude, depth, latitude, longitude, GOOGLE_API_KEY)
+            # 샘플 데이터 추가 전
+            # result = predict_tsunami(magnitude, depth, latitude, longitude, GOOGLE_API_KEY)
 
-            print("Sending single result to Spring Boot:", result)
-            return jsonify(result)  # '객체 1개'로 반환
+            # print("Sending single result to Spring Boot:", result)
+            # return jsonify(result)  # '객체 1개'로 반환
+            # 샘플 데이터 추가 후
+            prediction_result = predict_tsunami(magnitude, depth, latitude, longitude, GOOGLE_API_KEY)
+            frontend_response = {
+                "latitude": latitude,
+                "longitude": longitude,
+                "magnitude": magnitude,
+                "depth": depth,
+                "tsunamiProbability": prediction_result.get("tsunami_probability")
+            }
+
+            print("Sending single result to Spring Boot:", frontend_response)
+            return jsonify(frontend_response)
 
         # Case 3: 그 외 잘못된 형식
         else:
